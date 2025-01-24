@@ -10,27 +10,27 @@ const mynew = [2,3,4,5]
 // [1, 2, 3, 4, 2, 3, 4, 5]
 
 console.log(myarray.slice(1,3))
-console.log(myarray);
+console.log(myarray);  //slice() selects the specified number of elements without affecting the original array elements
 
 const arr = myarray.splice(1,3)
-console.log(arr);
+console.log(arr);   //whereas splice() removes the selected elements from the original array itself
 console.log(myarray);
 
 
-str = "Rupak"
-console.log(Array.from(str));  // string to array
+// str = "Rupak"
+// console.log(Array.from(str));  // string to array
 
-const m1 = "banana"
-const m2 = "apple"
-const m3 = "guave"
+// const m1 = "banana"
+// const m2 = "apple"
+// const m3 = "guave"
 
-console.log(Array.of(m1,m2,m3));// it makes a array of following contest
+// console.log(Array.of(m1,m2,m3));// it makes a array of following contest
 
-//spread operator
-const an_array = ["hello","how","are","you","hi","welcome"]
-const an1 =  [1,2,3,4,5,6]
-const a = [...an_array,...an1]
-console.log(a);
+// //spread operator
+// const an_array = ["hello","how","are","you","hi","welcome"]
+// const an1 =  [1,2,3,4,5,6]
+// const a = [...an_array,...an1]
+// console.log(a);
 
 
 
